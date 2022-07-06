@@ -76,11 +76,7 @@ export default function Header() {
               <a>Client</a>
             </Link>
           </li>
-          <li className={styles.navItem}>
-            <Link href="/server">
-              <a>Server</a>
-            </Link>
-          </li>
+
           <li className={styles.navItem}>
             <Link href="/protected">
               <a>Protected</a>
